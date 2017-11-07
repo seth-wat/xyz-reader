@@ -23,9 +23,9 @@
     <color name="theme_accent">#04561A</color>
     <color name="ltgray">#ffe0e0e0</color>
 
-    <color name="light_blue_200">#81D4FA</color>
-    <color name="light_blue_500">#03A9F4</color>
-    <color name="light_blue_800">#0277BD</color>
+    <color name="light_blue_200">#EF9A9A</color>
+    <color name="light_blue_500">#F44336</color>
+    <color name="light_blue_800">#C62828</color>
 
     <color name="orange_a_700">#FF6D00</color>
 </resources>

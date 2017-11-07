@@ -3,9 +3,21 @@
     <dimen name="detail_title_text_size">32sp</dimen>
     <dimen name="detail_body_text_size">22sp</dimen>
     <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.25</item>
-
     <dimen name="fab_elevation">2dp</dimen>
     <dimen name="fab_press_translation_z">6dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
+
+    <dimen name="app_bar_elevation">4dp</dimen>
+    <dimen name="right_left_keylines">16dp</dimen>
+
+
+    <!-- activity_article_list.xml !-->
+    <dimen name="toolbar_container_height">112dp</dimen>
+    <dimen name="recycler_view_bottom_padding">28dp</dimen>
+    <dimen name="recycler_view_padding_top">116dp</dimen>
+        <!-- note that these keylines are 12 dp because the views
+        populated into the Recycler View have 4 dp margin on their
+        sides !-->
+    <dimen name="right_left_keylines_rv">12dp</dimen>
 
 </resources>
