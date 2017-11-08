@@ -20,4 +20,13 @@
         sides !-->
     <dimen name="right_left_keylines_rv">12dp</dimen>
 
+    <!-- list_item_article-->
+    <dimen name="cardview_margin">4dp</dimen>
+    <dimen name="cardview_margin_bottom">4dp</dimen>
+    <dimen name="cardview_margin_top">12dp</dimen>
+    <dimen name="title_lines">1</dimen>
+    <dimen name="title_padding_rl">16dp</dimen>
+    <dimen name="title_padding_top">4dp</dimen>
+    <dimen name="subtitle_lines">2</dimen>
+
 </resources>
