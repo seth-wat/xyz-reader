@@ -14,7 +14,7 @@
     <!-- activity_article_list.xml !-->
     <dimen name="toolbar_container_height">112dp</dimen>
     <dimen name="recycler_view_bottom_padding">28dp</dimen>
-    <dimen name="recycler_view_padding_top">116dp</dimen>
+    <dimen name="recycler_view_padding_top">4dp</dimen>
         <!-- note that these keylines are 12 dp because the views
         populated into the Recycler View have 4 dp margin on their
         sides !-->
