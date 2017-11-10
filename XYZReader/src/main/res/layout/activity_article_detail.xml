@@ -1,9 +1,17 @@
+
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:background="?colorPrimary"
+        android:elevation="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize" />
     <android.support.v4.view.ViewPager
         android:id="@+id/pager"
+        android:layout_marginTop="?android:attr/actionBarSize"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
@@ -14,6 +22,7 @@
         android:layout_height="?actionBarSize">
 
         <ImageButton
+            android:visibility="gone"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             android:id="@+id/action_up"
             android:layout_width="56dp"
