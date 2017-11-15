@@ -8,9 +8,8 @@
 
     <!-- fragment_article_detail -->
     <dimen name="photo_height">350dp</dimen>
-    <dimen name="floating_action_margin_top">320dp</dimen>
-    <dimen name="content_frame_margin_top">350dp</dimen>
-    <dimen name="content_frame_margin_bottom">0dp</dimen>
+    <dimen name="content_frame_margin_top">374dp</dimen>
+    <dimen name="content_frame_margin_bottom">24dp</dimen>
     <dimen name="content_elevation">2dp</dimen>
     <dimen name="content_padding">16dp</dimen>
     <dimen name="content_width">-2dp</dimen>

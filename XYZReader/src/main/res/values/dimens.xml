@@ -30,7 +30,16 @@
     <dimen name="subtitle_lines">2</dimen>
 
     <!-- fragment_article_detail -->
-    <dimen name="photo_height">250dp</dimen>\
+    <dimen name="photo_height">250dp</dimen>
     <dimen name="floating_action_margin_top">220dp</dimen>
+    <dimen name="content_frame_margin_bottom">0dp</dimen>
+    <dimen name="content_frame_margin_top">250dp</dimen>
+    <dimen name="content_keylines">0dp</dimen>
+    <dimen name="content_elevation">0dp</dimen>
+    <dimen name="content_padding">16dp</dimen>
+    <dimen name="content_padding_bottom">24dp</dimen>
+    <dimen name="content_width">-1dp</dimen>
+
+
 
 </resources>

@@ -10,6 +10,7 @@
         android:id="@+id/scrollview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/light_blue_200"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <FrameLayout
@@ -65,19 +66,23 @@
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:layout_marginTop="266dp">
+                android:layout_marginLeft="@dimen/content_keylines"
+                android:layout_marginRight="@dimen/content_keylines"
+                android:layout_marginTop="@dimen/content_frame_margin_top"
+                android:layout_marginBottom="@dimen/content_frame_margin_bottom"
+                android:elevation="@dimen/content_elevation">
 
                 <TextView
                     android:id="@+id/article_body"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/right_left_keylines"
-                    android:layout_marginRight="@dimen/right_left_keylines"
+                    style="@style/ContentLayout"
+                    android:layout_gravity="center"
+                    android:background="@android:color/white"
                     android:ellipsize="end"
                     android:maxLines="24"
-                    android:paddingBottom="@dimen/detail_body_bottom_margin"
-                    android:textColorLink="@color/theme_accent"
+                    android:paddingBottom="@dimen/content_padding_bottom"
+                    android:paddingLeft="@dimen/content_padding"
+                    android:paddingRight="@dimen/content_padding"
+                    android:paddingTop="@dimen/content_padding"
                     android:textSize="24sp" />
 
             </FrameLayout>

@@ -16,18 +16,10 @@
 -->
 
 <resources>
-    <color name="photo_placeholder">#ccc</color>
 
-    <color name="theme_primary">#04561A</color>
-    <color name="theme_primary_dark">#04561A</color>
-    <color name="theme_accent">#04561A</color>
-    <color name="ltgray">#ffe0e0e0</color>
+    <style name="ContentLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
 
-    <color name="light_blue_200">#EF9A9A</color>
-    <color name="light_blue_500">#F44336</color>
-    <color name="light_blue_800">#C62828</color>
-
-    <color name="orange_a_700">#FF6D00</color>
-
-    <color name="transparent">#00000000</color>
 </resources>
