@@ -3,20 +3,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-
-
-
-        <android.support.v7.widget.RecyclerView
-            android:layout_marginLeft="@dimen/right_left_keylines_rv"
-            android:layout_marginRight="@dimen/right_left_keylines_rv"
-            android:id="@+id/recycler_view"
-            android:layout_width="match_parent"
-            app:layout_behavior="@string/appbar_scrolling_view_behavior"
-            android:layout_height="match_parent"
-            android:clipToPadding="false"
-            android:paddingBottom="@dimen/recycler_view_bottom_padding"
-            android:paddingTop="@dimen/recycler_view_padding_top"
-            android:scrollbarStyle="outsideOverlay" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/right_left_keylines_rv"
+        android:layout_marginRight="@dimen/right_left_keylines_rv"
+        android:clipToPadding="false"
+        android:paddingBottom="@dimen/recycler_view_bottom_padding"
+        android:paddingTop="@dimen/recycler_view_padding_top"
+        android:scrollbarStyle="outsideOverlay"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/toolbar_container"
@@ -26,15 +23,14 @@
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:layout_width="match_parent"
-            app:layout_scrollFlags="scroll|exitUntilCollapsed"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:layout_width="wrap_content"
                 android:layout_height="?actionBarSize"
                 android:layout_gravity="bottom"
-
                 android:layout_marginLeft="@dimen/list_toolbar_side_margin"
                 android:layout_marginRight="@dimen/list_toolbar_side_margin"
                 android:elevation="@dimen/app_bar_elevation"
@@ -50,5 +46,4 @@
             </android.support.v7.widget.Toolbar>
         </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
-
 </android.support.design.widget.CoordinatorLayout>

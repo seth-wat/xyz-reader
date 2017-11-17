@@ -23,6 +23,9 @@
         <item name="colorAccent">@color/orange_a_700</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="android:windowExitTransition">
+            @transition/list_exit
+        </item>
     </style>
 
     <style name="Theme.Bacon.Detail">
