@@ -23,11 +23,11 @@
     <color name="theme_accent">#04561A</color>
     <color name="ltgray">#ffe0e0e0</color>
 
-    <color name="light_blue_200">#EF9A9A</color>
-    <color name="light_blue_500">#F44336</color>
-    <color name="light_blue_800">#C62828</color>
+    <color name="red_200">#EF9A9A</color>
+    <color name="red_500">#F44336</color>
+    <color name="red_700">#D32F2F</color>
 
-    <color name="orange_a_700">#FF6D00</color>
+    <color name="indigo_a200">#536DFE</color>
 
     <color name="transparent">#00000000</color>
 </resources>

@@ -14,6 +14,7 @@ import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.design.widget.CoordinatorLayout;
+import android.support.design.widget.Snackbar;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.ActionBarActivity;
@@ -131,6 +132,8 @@ public class ArticleListActivity extends AppCompatActivity implements
         GridLayoutManager sglm =
                 new GridLayoutManager(this, columnCount, GridLayoutManager.VERTICAL, false);
         mRecyclerView.setLayoutManager(sglm);
+        Snackbar.make(findViewById(R.id.root_viewgroup), getResources().getString(R.string.snackbar), Snackbar.LENGTH_SHORT)
+                .show();
     }
 
     @Override
