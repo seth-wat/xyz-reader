@@ -1,3 +1,10 @@
-= XYZ Reader Starter Code
+# XYZ Refactor
 
-This repository stores the starter code for the XYZ Reader project in Udacity's Android Nanodegree.
+Given an existing code-base of an RSS feed, refactor the app to meet Material Design specifications.
+
+## Features
+* Improve layout across various screen sizes.
+* Improve margin and paddings.
+* Improve colors.
+* Improve text readability.
+* Improve arrangement of UI elements.
