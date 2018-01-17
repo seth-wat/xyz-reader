@@ -18,4 +18,4 @@ Given an existing code-base of an RSS feed, refactor the app to meet Material De
 
 ## Notes  
 * I have since improved my design skills even further, please check out my most recent app [Earthquake Feed](https://github.com/seth-wat/Earthquake-Feed/edit/master/README.md).  
-* My usage of git in this repository isn't great. I'm actively improving my git best-practices if you examine my more recent repositories.
+* My usage of git in this repository isn't great. I'm actively improving my git best-practices visible in my more recent repositories.
