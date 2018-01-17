@@ -1,15 +1,15 @@
-# Summary
-Given an existing code-base of an RSS feed, refactor the app to meet Material Design specifications. The focus of the project was strictly on design and not on improving the existing codebase. The original code can be found [here](https://github.com/udacity/xyz-reader-starter-code). 
-
 # Before & After  
 <img src="https://github.com/seth-wat/xyz-reader/blob/master/before.png"><img src="https://github.com/seth-wat/xyz-reader/blob/master/after.png">
+
+## Summary
+Given an existing code-base of an RSS feed, refactor the app to meet Material Design specifications. The focus of the project was to improve the design and not worry about the state of the internal code. [original code](https://github.com/udacity/xyz-reader-starter-code). 
 
 ## Features
 * Add a collapsing toolbar using `CoordinatorLayout`.
 * Improve layout across various screen sizes using resource qualifiers.
-* Fix margin and padding using Material Design spec.
-* Improve colors using [Material Design color spec](https://material.io/guidelines/style/color.html#color-color-palette).
-* Improve text readability: color and size.
+* Fix margin and padding.
+* Improve colors.
+* Improve text readability.
 * Improve arrangement of UI elements for natural interaction.
 
 ## Configuration  
